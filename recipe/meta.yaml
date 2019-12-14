@@ -1,5 +1,5 @@
 {% set name = "kjobwidgets" %}
-{% set version = "5.64.0" %}
+{% set version = "5.65.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kjobwidgets-{{ version }}.tar.xz
-  sha256: 3b39fc5dfc0f1a9cc9bffed3d05b90ba46c52c63cbbeffa0666f5f09e7093ce0
+  sha256: 2b68d848b086f274020334cadd28d212125e05a7fdd97ff97ac801aed80ec852
 
 build:
   number: 0
