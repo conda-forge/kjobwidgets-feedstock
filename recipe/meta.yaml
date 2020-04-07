@@ -1,5 +1,5 @@
 {% set name = "kjobwidgets" %}
-{% set version = "5.66.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kjobwidgets-{{ version }}.tar.xz
-  sha256: 34501be3ec85f0e71dba22669b3c862b297606e9bbff9aae466667c7075b6f8d
+  sha256: a11ba51ed0ab330f9a921cf0a61e604c27d88c1c2ea477a875bc0a0cd228a292
 
 build:
   number: 0
@@ -44,7 +44,7 @@ about:
   license: LGPL-v2.1-or-later
   license_family: GPL
   license_file: COPYING.LIB
-  summary: 'Widgets for showing progress of asynchronous jobs'
+  summary: Widgets for showing progress of asynchronous jobs
   description: |
     KJobWIdgets provides widgets for showing progress of asynchronous jobs.
   dev_url: https://cgit.kde.org/kjobwidgets.git/tree
